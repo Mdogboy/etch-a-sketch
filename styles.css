@@ -1,0 +1,49 @@
+:root {
+    --bg-color: aliceblue;
+    --secondary-color: blue;
+    --grid-size: 600px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--bg-color);
+    padding: 40px 0px;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    background-color: var(--bg-color);
+    height: 100vh;
+}
+
+.grid {
+    width: var(--grid-size);
+    height: var(--grid-size);
+    background-color: aquamarine;
+}
+
+.options {
+    background-color: var(--secondary-color);
+    height: var(--grid-size);
+    width: 160px;
+    text-align: center;
+}
+
+#color-picker {
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    border: none;
+    margin: 20px;
+    background-color: black;
+}
