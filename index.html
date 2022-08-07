@@ -17,6 +17,11 @@
         <div class="content">
             <div class="options">
                 <input type="color" id="color-picker" value="#FF0000">
+                <input type="button" id="clear" value="Clear" onclick="fillGrid();">
+                <div class="slider">
+                    <input type="range" id="size" name="size" min="16" max="100" value="16">
+                    <label id="sizeLabel">16x16</label>
+                </div>
             </div>
             <div class="grid"></div>
         </div>
